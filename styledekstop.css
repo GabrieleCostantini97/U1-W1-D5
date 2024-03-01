@@ -1,0 +1,115 @@
+/* GENERALI */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body h1 {
+  font-size: 2em;
+}
+body p {
+  font-size: 1.3em;
+  margin: 1em;
+}
+/* HEADER */
+header {
+  background-color: black;
+}
+header h1 {
+  color: #28a3cc;
+  font-weight: bold;
+}
+#banner {
+  background-image: url(../images/banner.jpg);
+  text-align: center;
+  padding: 170px;
+}
+header button {
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+  height: 3em;
+  width: 10em;
+  font-weight: bold;
+  border: none;
+}
+/* MAIN */
+main {
+  margin-top: 3em;
+}
+main h3 {
+  text-align: center;
+  color: #28a3cc;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+main p {
+  text-align: center;
+}
+main img {
+  margin-bottom: 1.5em;
+}
+#imgnot {
+  padding: 2em;
+  font-size: 1.3em;
+  display: inline-block;
+}
+#imgnote {
+  border-radius: 250px;
+  margin-bottom: 8%;
+  margin-top: 5%;
+}
+#vicinoalnote {
+  display: inline-block;
+}
+
+/* ARTCILE INSIDE MAIN */
+article {
+  background-color: red;
+  text-align: center;
+  color: white;
+  padding: 5%;
+  margin-top: 10%;
+}
+
+article h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+.borderimg {
+  border: solid 1px black;
+}
+
+/* ARTICLE INSIDE MAIN END */
+
+/* UNDER ARTICLE */
+.sottoarticle {
+  border: solid #dddddd 0.1px;
+  max-height: 650px;
+  border-radius: 5px;
+  display: inline-block;
+}
+/* FOOTER */
+footer {
+  background-color: #27a3c7;
+  color: white;
+  text-align: center;
+}
+footer h2 {
+  font-weight: bold;
+  font-size: 3em;
+}
+footer div {
+  padding: 2em;
+}
+
+a:visited {
+  color: white;
+}
+
+hr {
+  width: 30%;
+}
