@@ -1,3 +1,5 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 /* GENERALI */
 body {
   max-width: 500px;
@@ -23,7 +25,9 @@ header {
   background-color: black;
   text-align: center;
 }
-#img1 {
+#logo {
+  width: 30%;
+  padding: 6%;
 }
 
 header h1 {
@@ -33,6 +37,8 @@ header h1 {
 #banner {
   background-image: url(../images/banner.jpg);
   padding: 40px;
+  background-position: center;
+  background-size: cover;
 }
 header button {
   border-radius: 5px;
@@ -108,7 +114,7 @@ footer div {
   padding: 2em;
 }
 
-a:visited {
+a {
   color: white;
 }
 
