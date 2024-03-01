@@ -17,24 +17,60 @@ header {
   background-color: black;
   text-align: center;
 }
+#img1 {
+}
 header h1 {
-  color: lightblue;
+  color: #28a3cc;
+  font-weight: bold;
 }
 #banner {
   background-image: url(../images/banner.jpg);
+  padding: 40px;
+}
+header button {
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+  height: 3em;
+  width: 10em;
+  font-weight: bold;
+  border: none;
 }
 /* MAIN */
+main {
+  margin-top: 3em;
+}
 main h3 {
   text-align: center;
-  color: lightblue;
+  color: #28a3cc;
   font-weight: bold;
   font-size: 1.3em;
 }
 main p {
   text-align: center;
 }
+#imgnote {
+  border-radius: 250px;
+  margin-bottom: 8%;
+  margin-top: 5%;
+}
+/* MAIN END */
+/* ARTCILE INSIDE MAIN */
 article {
   background-color: red;
   text-align: center;
   color: white;
+  padding: 5%;
+  margin-top: 10%;
+}
+
+article h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+/* ARTICLE INSIDE MAIN END */
+
+/* UNDER ARTICLE */
+.sottoarticle {
+  padding: 10%;
 }
